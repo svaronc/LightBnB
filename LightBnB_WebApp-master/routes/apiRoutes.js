@@ -6,7 +6,7 @@ const router = express.Router();
 router.get("/properties", (req, res) => {
   database
     .getAllProperties(req.query, 20)
-    .then((properties) => res.send({ properties }))
+    .then((properties) => {res.send({ properties })})
     .catch((e) => {
       console.error(e);
       res.send(e);
@@ -33,7 +33,7 @@ router.post("/properties", (req, res) => {
   if (!userId) {
     return res.send({ error: "error" });
   }
-
+  console.log(req.body);
   const newProperty = req.body;
   newProperty.owner_id = userId;
   database
