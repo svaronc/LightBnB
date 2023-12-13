@@ -1,5 +1,20 @@
 # LightBnB
 
+Lightbnb is a lightweight, simplified clone of the popular Airbnb platform, designed to help you understand the fundamentals of building a vacation rental website. This project serves as a hands-on learning experience for web developers and enthusiasts who want to explore the world of web development, databases, and user authentication.
+
+## Features
+
+* User Authentication: Lightbnb includes a user authentication system, allowing users to sign up, log in, and manage their profiles.
+
+* Property Listings: Users can view a list of available properties for rent, complete with property details, photos, and pricing information.
+
+* Search and Filter: Users can search for properties based on location, price range, and other criteria, making it easy to find the perfect vacation rental.
+
+* Booking and Reservations: Users can book properties and view their reservations.
+
+* Property Management: Property owners can list their properties for rent, manage property details, and review reservation requests.
+
+
 ## Project Structure
 
 ```
